@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Resource } from "sst";
 
-console.log("Resource.SOME_SECRET", Resource.SomeSecret);
+console.log("Resource.SOME_SECRET", Resource.SomeSecret.value);
 console.log("process.env.SOME_SECRET", process.env.SOME_SECRET);
 
 const inter = Inter({ subsets: ["latin"] });
